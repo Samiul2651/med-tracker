@@ -42,6 +42,6 @@ run out of tablets before the course is done. Paper gives no reminders.
 - Play Store publishing.
 
 ## Decisions (were open questions)
-- Repo: private.
+- Repo: public (changed from private on 24 Nov 2026: Actions would not start on the private repo). Still no personal data in it.
 - Language: English only.
 - Gap schedules ("every N days") are in v1.

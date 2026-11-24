@@ -56,7 +56,7 @@ Source: `intent.md` (approved).
 - **NFR-2** Runs on Android 8.0 (API 26) and newer.
 - **NFR-3** All data stored only on the phone; survives app updates.
 - **NFR-4** Today screen opens in under 1 second on a mid-range phone.
-- **NFR-5** APK built by GitHub Actions from the private repo and attached to a GitHub Release; no paid services.
+- **NFR-5** APK built by GitHub Actions from the public repo and attached to a GitHub Release; no paid services.
 - **NFR-6** No real patient data in the repo (code, tests or docs).
 - **NFR-7** English labels only.
 
@@ -98,6 +98,6 @@ Source: `intent.md` (approved).
 ## Concerns flagged
 1. **Battery savers** (Xiaomi, Oppo, Samsung etc.) can delay or kill alarms. The app can only point the user to settings; FR-12 may still fail on some phones.
 2. **Backup is manual**: FR-18/19 only help if the user exports. Uninstalling without an export still loses data.
-3. **Private repo**: downloading the APK from Releases needs a GitHub login on the phone. Installing needs "Install unknown apps" allowed.
+3. **Public repo**: anyone can see the code and download the APK, so the repo must never hold personal data (NFR-6). Installing needs "Install unknown apps" allowed.
 4. **Not medical advice**: the app trusts what the user types and never checks doses.
 5. Odd schedules like "1 tablet, every 3 days, 3 times" are covered by: every 3 days + length 7 days (gives days 1, 4, 7).

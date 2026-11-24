@@ -8,7 +8,7 @@ get a reminder at each dose time, and see how many days and tablets are left.
 - Not medical advice. The app only stores what you type in.
 
 ## Install
-1. On your phone, open this repo's **Releases** page (sign in to GitHub).
+1. On your phone, open this repo's **Releases** page.
 2. Download the latest `med-tracker-*.apk`.
 3. Open it and allow "Install unknown apps" when Android asks.
 
